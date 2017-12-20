@@ -1,0 +1,9 @@
+{
+  "notification": {
+    "title": "New chat message!",
+    "body": "There is a new message in FriendlyChat",
+    "icon": "/images/profile_placeholder.png",
+    "click_action": "http://localhost:5000"
+  },
+  "to":"fr8-VaMcZkM:APA91bGEexBoTOXrT8YfcQBs4NRkBknJALjYNk3F1Z2Op_pgk0q_3c_bQiDKZIzvw_DXWB3ZL3q3f1ueiemiThMFdsSP1o-0HEqHQKZuUHTh2Ww6m8jX4_OwXwdOae4KSc_bS5mPGEJu"
+}

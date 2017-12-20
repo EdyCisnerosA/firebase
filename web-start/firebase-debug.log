@@ -1,0 +1,73 @@
+[debug] [2017-12-15T23:37:17.125Z] ----------------------------------------------------------------------
+[debug] [2017-12-15T23:37:17.141Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\azul_\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-15T23:37:17.141Z] CLI Version:   3.16.0
+[debug] [2017-12-15T23:37:17.141Z] Platform:      win32
+[debug] [2017-12-15T23:37:17.141Z] Node Version:  v8.6.0
+[debug] [2017-12-15T23:37:17.141Z] Time:          Fri Dec 15 2017 17:37:17 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-15T23:37:17.141Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-15T23:37:17.172Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-15T23:37:17.188Z] > authorizing via signed-in user
+[debug] [2017-12-15T23:37:17.195Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-25b18  
+  
+ Fri Dec 15 2017 17:37:17 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-15T23:37:17.660Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-15T23:37:17.660Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-25b18/tokens  
+  
+ Fri Dec 15 2017 17:37:17 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-15T23:37:18.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\azul_\Desktop\friendlychat-web-master\web-start'...
+[info] 
+[debug] [2017-12-15T23:37:18.048Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-25b18  
+  
+ Fri Dec 15 2017 17:37:18 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-15T23:37:18.504Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-15T23:37:18.506Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/535724433039/clients/_:getWebAppConfig  
+  
+ Fri Dec 15 2017 17:37:18 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-15T23:37:19.016Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-12-20T00:00:34.201Z] ----------------------------------------------------------------------
+[debug] [2017-12-20T00:00:34.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\azul_\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-20T00:00:34.419Z] CLI Version:   3.16.0
+[debug] [2017-12-20T00:00:34.419Z] Platform:      win32
+[debug] [2017-12-20T00:00:34.419Z] Node Version:  v8.6.0
+[debug] [2017-12-20T00:00:34.544Z] Time:          Tue Dec 19 2017 18:00:34 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:00:34.544Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-20T00:00:35.028Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-20T00:00:35.028Z] > authorizing via signed-in user
+[debug] [2017-12-20T00:00:35.044Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-20T00:00:35.044Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/yMwQPzOQQoxfX6BPcUq3N4QrqePrH5HmOxrXJEawf1o',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Dec 19 2017 18:00:35 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:00:35.658Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T00:00:35.752Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-25b18  
+  
+ Tue Dec 19 2017 18:00:35 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:00:36.227Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T00:00:36.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-25b18/tokens  
+  
+ Tue Dec 19 2017 18:00:36 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:00:36.611Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\azul_\Desktop\friendlychat-web-master\web-start'...
+[info] 
+[debug] [2017-12-20T00:01:33.412Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-25b18  
+  
+ Tue Dec 19 2017 18:01:33 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:01:34.068Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-20T00:01:34.068Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/535724433039/clients/_:getWebAppConfig  
+  
+ Tue Dec 19 2017 18:01:34 GMT-0600 (Hora estándar central (México))
+[debug] [2017-12-20T00:01:34.662Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

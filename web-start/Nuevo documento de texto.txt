@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -H "Authorization: key=AAAAfLuqHo8:APA91bEhg7ge6pIfgFhUGt7B-5wqMhVajKozzWEkHhEuGEK_1PxoiSqVpg9-8mMX0_wuO3LpYJfV8Wruz4-qf5qwJbLNs6G3TY_qga6AMEhMr5gZ8F5sMKeXtnB6lPFtKp5yF44RCz-y" -d @json.txt https://fcm.googleapis.com/fcm/send
